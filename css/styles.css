@@ -51,6 +51,10 @@ address {
     font-style: normal;
 }
 
+img {
+    display: block;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -182,7 +186,7 @@ address {
 
 /*What We are Doing*/
 .activities {
-    padding: 120px 0;
+    padding-bottom: 120px 0;
 }
 .activities-title, .teams-title {
     text-align: center;
@@ -208,7 +212,7 @@ address {
     gap: 24px;
 }
 .teams-item-card-desc {
-    padding: 32px auto;
+    padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
     background: var(--white);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -233,11 +237,9 @@ address {
 /*Footer Section*/
 .footer {
     background-color: var(--navyblue);
-}
-
-.footer-container {
     padding: 100px 0;
 }
+
 .footer-logo {
     font-family: var(--font-logo);
     color: var(--iris);
@@ -266,8 +268,10 @@ address {
 
 
 /*----------Start of Portfolio Page----------*/
-.portfolio-filter-container {
+.filter {
     padding: 96px 0 72px 0;
+}
+.portfolio-filter-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -296,7 +300,7 @@ address {
     border-color: var(--ocean);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
-.portfolio-container {
+.portfolio {
     padding-bottom: 120px;
 }
 .portfolio-list {
@@ -308,9 +312,6 @@ address {
     flex-wrap: wrap;
 }
 
-.portfolio-list-items:nth-child(-n+6) {
-    margin-bottom: 24px;
-}
 .portfolio-card-desc {
     padding: 32px 16px;
     display: flex;
