@@ -94,6 +94,7 @@ img {
     width: 16px;
     height: 16px;
     fill: var(--cloud);
+
 }
 
 .nav-item-link:hover,
@@ -274,18 +275,58 @@ img {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
+    margin-bottom: 8px;
 }
 
 /*Clients Section*/
+.clients {
+    padding: 120px 0;
+}
 .clients-list {
     display: flex;
     gap: 20px;
 }
-.clients-list-items-icon {
-    fill: var(--lightslate);
+.clients-list-items {
+    border: 1px solid var(--lightslate);
+    border-radius: 4px;
     width: 168px;
     height:88px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
 }
+.clients-list-items-icon {
+    display: inline-block;
+    fill: var(--lightslate);
+}
+.clients-list-client-1 {
+    width: 41px;
+    height: 47px;
+}
+
+.clients-list-client-2 {
+    width:40px;
+    height:52px;
+}
+
+.clients-list-client-3 {
+    width:44px;
+    height:41px;
+}
+.clients-list-client-4 {
+    width:84px;
+    height:41px;
+}
+.clients-list-client-5 {
+    width:63px;
+    height:46px;
+}
+.clients-list-client-6 {
+    width:94px;
+    height:45px;
+}
+
 /*Footer Section*/
 .footer {
     background-color: var(--navyblue);
@@ -322,12 +363,17 @@ img {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 
 .footer-list {
     display: flex;
+    gap: 120px;
 }
 
+.footer-list-item-socials {
+    width: 208px;
+}
 /* End of Studio Page */
 
 
