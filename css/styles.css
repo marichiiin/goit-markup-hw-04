@@ -185,7 +185,7 @@ img {
 
 
 
-/*Herro Section*/
+/*Hero Section*/
 .hero {
     color: var(--white);
     padding: 188px 316px;
@@ -298,6 +298,10 @@ img {
     margin-bottom: 8px;
 }
 
+.teams-item-social-links:hover {
+    background-color: var(--ocean);
+}
+
 /*Clients Section*/
 .clients {
     padding: 120px 0;
@@ -315,11 +319,10 @@ img {
     align-items: center;
     justify-content: center;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: var(--lightslate);
 }
-/* .client-list-item-link {
+.client-list-item-link {
     color: var(--lightslate); 
-} */
+}
 
 .clients-list-items:hover {
     border-color: var(--ocean);
@@ -404,6 +407,10 @@ img {
 
 .footer-list-item-socials {
     width: 208px;
+}
+
+.footer-list-social-links:hover {
+    background-color: var(--green);
 }
 /* End of Studio Page */
 
